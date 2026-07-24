@@ -1,8 +1,25 @@
 aid: cellinobio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cellinobio.png
 name: Cellinobio
-description: Cellinobio is a company surfaced as a portfolio company of felicis, khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Cellino Bio develops AI-driven optical bioprocessing technology for personalized
+  regenerative medicine. Its proprietary Nebula platform combines deep learning, laser-based
+  cell management, and closed-loop optical bioprocesses to manufacture patient-specific,
+  induced-pluripotent-stem-cell-derived cell and tissue replacements at scale. The company targets
+  degenerative and chronic conditions including kidney disease, lung disease, spinal cord injury,
+  Alzheimer''s, and diabetes. Cellino is a life-sciences/biotech company with no public developer
+  API surface; this profile is maintained in the API Evangelist network for company intelligence and
+  is backed by Felicis and Khosla Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/cellinobio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Regenerative Medicine
+- Cell Therapy
+- Artificial Intelligence
+- Life Sciences
+- Manufacturing
+- Stem Cells
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cellinobio-domain-security.yml
 - type: Website
   url: https://cellinobio.com
+- type: PrivacyPolicy
+  url: https://cellinobio.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
